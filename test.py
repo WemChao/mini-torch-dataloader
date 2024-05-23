@@ -1,9 +1,3 @@
-# mini-torch-dataloader
-Pytorch dataloader implemented from scratch, providing introductory learning
-
-
-example
-```python
 import time
 import cv2
 import torch
@@ -50,16 +44,3 @@ st = time.time()
 for i in tqdm(range(5)):
     mini_lodaer(CustomDS())
 print('mini time:', time.time() - st)
-
->>> torch time: 132.62
->>> mini time: 126.36
-
-```
-
-# refferences
-
-
-
-[1] https://github.com/pytorch/pytorch/blob/master/torch/utils/data/dataloader.py
-[2] https://github.com/teddykoker/tinyloader
-[3] https://github.com/facebookresearch/detectron2
